@@ -46,3 +46,9 @@ variable "city" {}
 output "city" {
     value = "City name is ${var.city}"
 }
+
+variable "State" {}
+
+output "state" {
+    value = "City name is ${var.State}"
+}
