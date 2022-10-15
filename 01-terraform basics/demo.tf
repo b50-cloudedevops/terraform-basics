@@ -39,5 +39,5 @@ variable "ex-map" {
 }
 
 output "ex-map" {
-    value = "welcome to ${var.ex-map[class]} class"
+    value = "welcome to ${var.ex-map["class"]} class"
 }
