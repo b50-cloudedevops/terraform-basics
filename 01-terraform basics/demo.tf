@@ -1,3 +1,3 @@
-output "variable" {
-    sample="hello world"
+output "sample" {
+    default="hello world"
 }
