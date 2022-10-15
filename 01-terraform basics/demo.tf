@@ -27,5 +27,5 @@ variable "ex-list" {
     ]
 }
 output "ex-list" {
-    value = var.ex-list
+    value = "welcome to ${var.exlist[0]} devops"
 }
