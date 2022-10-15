@@ -37,3 +37,7 @@ variable "ex-map" {
         Trainer = "Manu"
     }
 }
+
+output "ex-map" {
+    value = "welcome to ${var.ex-map[class]} class"
+}
