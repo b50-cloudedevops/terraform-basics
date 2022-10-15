@@ -17,3 +17,15 @@ variable "number" {
 output "number" {
     value = var.number
 }
+
+variable "ex-list" {
+    default = [
+        "AWS",
+        "Azure",
+        "GCP",
+         999
+    ]
+}
+output "ex-list" {
+    value = var.ex-list
+}
