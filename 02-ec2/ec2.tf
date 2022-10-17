@@ -9,3 +9,7 @@ resource "aws_instance" "demo" {
       Name = "Vamsi-Ec2-Teraform"
      }
 }
+
+output "public_ip" {
+    value = aws_instance.demo.public_ip
+}
