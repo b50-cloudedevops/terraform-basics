@@ -1,4 +1,4 @@
-data "aws_ami" "my_ami" {
+data "aws_ami" "myy_ami" {
   most_recent      = true
   name_regex       = "b50-with-ansible"
   owners           = ["self"]
