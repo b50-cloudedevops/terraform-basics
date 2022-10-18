@@ -1,5 +1,5 @@
 data "aws_ami" "my_ami" {
   most_recent      = true
-  name_regex       = "vamsi"
+  name_regex       = "DevOps-LabImage-CentOS7"
   owners           = ["self"]
 }
