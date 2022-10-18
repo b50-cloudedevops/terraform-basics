@@ -1,5 +1,5 @@
-data "aws_ami" "DevOps-LabImage-CentOS7" {
+data "aws_ami" "vamsi" {
   most_recent      = true
-  name_regex       = "DevOps-LabImage-CentOS7"
+  name_regex       = "terraform-server"
   owners           = ["self"]
 }
