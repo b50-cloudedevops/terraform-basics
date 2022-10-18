@@ -3,5 +3,3 @@ data "aws_ami" "my_ami" {
   name_regex       = "b50-with-ansible"
   owners           = ["self"]
 }
-
-data.aws_ami.my_ami.id
