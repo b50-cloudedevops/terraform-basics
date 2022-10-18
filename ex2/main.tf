@@ -3,6 +3,6 @@ module "ec2" {
     sg = module.sg.sg_id
 }
 
-module "ec2" {
+module "sg" {
     source = "./sg"
 }
