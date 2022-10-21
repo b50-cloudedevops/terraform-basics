@@ -16,6 +16,6 @@ provisioner "remote-exec" {
       host     = self.public_ip
     }
     inline = [
-      "ansible-pull -U https://github.com/b50-cloudedevops/ansible.git -e COMPONENT=frontend -e ENV=dev -e APP_VERSION=${var.APP_VERSION} roboshop-pull.yml",
+      "ansible-pull -U https://github.com/b50-cloudedevops/ansible.git -e COMPONENT=${var.COMPONENT} -e ENV=dev -e APP_VERSION=${var.APP_VERSION} roboshop-pull.yml",
     ]
   }
