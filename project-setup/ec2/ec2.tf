@@ -4,7 +4,7 @@ resource "aws_spot_instance_request" "spot_worker" {
   wait_for_fulfillment = true
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
   tags = {
-    Name = "var.COMPONENT"
+    Name = "${var.COMPONENT}"
   }
   provisioner "remote-exec" {
 
