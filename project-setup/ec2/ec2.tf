@@ -5,9 +5,7 @@ resource "aws_spot_instance_request" "spot_worker" {
   tags = {
     Name = "var.COMPONENT"
   }
-}
-
-provisioner "remote-exec" {
+  provisioner "remote-exec" {
 
     connection {
       type     = "ssh"
@@ -19,3 +17,4 @@ provisioner "remote-exec" {
       "ansible-pull -U https://github.com/b50-cloudedevops/ansible.git -e COMPONENT=${var.COMPONENT} -e ENV=dev -e APP_VERSION=${var.APP_VERSION} roboshop-pull.yml",
     ]
   }
+}
