@@ -24,10 +24,10 @@ variable "ALL_COMPONENTS" {
         payment = {
             app_version = "0.0.2"
         },
-        frontend = {
-            app_version = "0.0.2"
-        },
         cart = {
+            app_version = "0.0.2"
+        }
+        frontend = {
             app_version = "0.0.2"
         }
     }
