@@ -3,9 +3,6 @@ variable "ALL_COMPONENTS" {
         mongodb = {
             app_version = "null"
         },
-        catalogue = {
-            app_version = "0.0.2"
-        },
         mysql = {
             app_version = "null"
         },
@@ -14,17 +11,20 @@ variable "ALL_COMPONENTS" {
         },
         rabbitmq = {
             app_version = "null"
+        },
+        catalogue = {
+            app_version = "0.0.2"
         }
-         user = {
+        cart = {
             app_version = "0.0.2"
         }, 
+        user = {
+            app_version = "0.0.2"
+        },
         shipping = {
             app_version = "0.0.2"
         },
         payment = {
-            app_version = "0.0.2"
-        },
-        cart = {
             app_version = "0.0.2"
         },
         frontend = {
