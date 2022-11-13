@@ -24,9 +24,9 @@ variable "ALL_COMPONENTS" {
         shipping = {
             app_version = "0.0.2"
         },
-        payment = {
-            app_version = "0.0.2"
-        },
+        #payment = {
+        #    app_version = "0.0.2"
+        #},
         frontend = {
             app_version = "0.0.2"
         }
